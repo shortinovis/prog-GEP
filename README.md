@@ -1,12 +1,12 @@
-# 🏐 FantaVolley
+#  FantaVolley
 
-## 📌 Descrizione
+##  Descrizione
 
 **FantaVolley** è una piattaforma (web/app) pensata per tutti gli amanti della pallavolo, dove è possibile creare la propria **squadra virtuale**, partecipare a **leghe e tornei a premi** e vivere l’esperienza del **fantasy sport applicato alla pallavolo**.
 
 Gli utenti possono selezionare i migliori giocatori della **Superlega** e delle principali competizioni, monitorare le loro performance in tempo reale e guadagnare punti per scalare la classifica.
 
-### 💰 Modello di monetizzazione
+###  Modello di monetizzazione
 
 La piattaforma genera ricavi attraverso:
 
@@ -23,7 +23,7 @@ Gli abbonamenti permettono di sbloccare:
 
 ---
 
-# 🎯 Problema
+#  Problema
 
 Attualmente esiste **una forte mancanza di piattaforme dedicate alla pallavolo** nel mondo dei fantasy sport.
 
@@ -37,17 +37,17 @@ Mentre sport come calcio e basket hanno numerose applicazioni e community attive
 
 ---
 
-# 👥 Target
+#  Target
 
 ### Fascia d'età
 **14 – 45 anni**
 
 ### Utenti principali
 
-- 🏐 **Appassionati di pallavolo** (giocatori, tifosi, allenatori)
-- 🎓 **Studenti e praticanti sportivi**
-- 🎮 **Casual players** che vogliono giocare con amici
-- 🏆 **Competitors** interessati a classifiche e tornei ufficiali
+-  **Appassionati di pallavolo** (giocatori, tifosi, allenatori)
+-  **Studenti e praticanti sportivi**
+-  **Casual players** che vogliono giocare con amici
+-  **Competitors** interessati a classifiche e tornei ufficiali
 
 ### Partner potenziali
 
@@ -57,19 +57,38 @@ Mentre sport come calcio e basket hanno numerose applicazioni e community attive
 
 ---
 
-# 🥊 Competitors
+#  Competitors
 
-I principali competitor sono piattaforme fantasy dedicate ad **altri sport**, come calcio o basket.
+Il panorama attuale offre diverse piattaforme di **fantasy sport**, ma nessuna è focalizzata esclusivamente sulla **pallavolo con analisi statistiche avanzate e tornei dedicati**, come proposto da **FantaVolley**.
+
+Principali piattaforme concorrenti:
 
 - Fantacalcio
 - Dunkest
 - Sorare
-
-Queste piattaforme offrono esperienze simili ma **non sono focalizzate sulla pallavolo**, lasciando spazio per un prodotto dedicato come **FantaVolley**.
+- Volleyball Fantasy League
 
 ---
 
-# 🏷 Tagline
+##  Analisi Comparativa
+
+|  Caratteristica |  Importanza |  FantaVolley (P.) |  Fantacalcio |  Dunkest |  Sorare |  Volleyball Fantasy League |
+|------------------|--------------|--------------------|---------------|------------|-----------|------------------------------|
+| Fantasy sport dedicato alla pallavolo | 🔥 High | 🟢 Interamente dedicato alla pallavolo | 🔴 Solo calcio | 🔴 Solo basket | 🔴 Solo calcio | 🟠 Parzialmente |
+| Creazione squadre fantasy | 🔥 High | 🟢 Squadre personalizzate | 🟢 Disponibile | 🟢 Disponibile | 🟢 Disponibile | 🟢 Disponibile |
+| Leghe private tra amici | 🔥 High | 🟢 Supportate | 🟢 Supportate | 🟢 Supportate | 🟠 Limitate | 🟠 Limitate |
+| Tornei ufficiali con premi | 🔥 High | 🟢 Tornei dedicati alla pallavolo | 🟠 Alcuni tornei | 🟢 Presente | 🟢 Presente | 🔴 Assente |
+| Analisi statistiche avanzate | 🔥 High | 🟢 Analisi dettagliate e predittive | 🟠 Statistiche base | 🟢 Statistiche avanzate | 🟠 Limitate | 🔴 Molto limitate |
+| Suggerimenti automatici formazione | 🔥 High | 🟢 Basati su dati e performance | 🔴 Assenti | 🟠 Limitati | 🔴 Assenti | 🔴 Assenti |
+| Aggiornamento punteggi in tempo reale | 🔥 High | 🟢 Aggiornamento automatico | 🟢 Presente | 🟢 Presente | 🟢 Presente | 🟠 Non sempre puntuale |
+| Abbonamenti premium | 🔥 High | 🟢 Funzionalità avanzate e analisi | 🔴 Non previsti | 🟠 Limitati | 🟢 Carte premium | 🔴 Assenti |
+| Sistema equo senza vantaggi competitivi | 🔥 High | 🟢 Premium solo informativo | 🟢 Equilibrato | 🟠 Alcuni vantaggi | 🔴 Carte rare influenzano | 🟢 Sistema semplice |
+| Disponibilità multipiattaforma | 🔥 High | 🟢 Web e mobile | 🟢 Web e mobile | 🟢 Mobile | 🟢 Web e mobile | 🟠 Limitato |
+| Community e interazione utenti | 🟡 Moderate | 🟢 Leghe, chat e competizioni | 🟢 Community ampia | 🟠 Limitata | 🟠 Limitata | 🔴 Quasi assente |
+
+---
+
+#  Tagline
 
 > **“La passione per la pallavolo diventa strategia. Gioca, analizza, vinci.”**
 
@@ -79,7 +98,7 @@ oppure
 
 ---
 
-# 🛠 Tecnologie
+#  Tecnologie
 
 Per supportare una piattaforma fantasy sport scalabile e basata su dati statistici è stato selezionato uno stack moderno.
 
@@ -146,7 +165,7 @@ Deployment automatico e versioning del codice.
 
 ---
 
-# 📋 Analisi dei Requisiti
+#  Analisi dei Requisiti
 
 ## Descrizione
 
@@ -184,7 +203,7 @@ Gli amministratori gestiscono il sistema tramite un **pannello di controllo dedi
 
 ---
 
-# ⚙️ Requisiti Funzionali
+#  Requisiti Funzionali
 
 - Registrazione, login e recupero password
 - Gestione del profilo utente
@@ -200,7 +219,7 @@ Gli amministratori gestiscono il sistema tramite un **pannello di controllo dedi
 
 ---
 
-# 📖 User Story
+#  User Story
 
 | Attore (Come...) | Requisito / Azione (Voglio...) | Beneficio (In modo da...) |
 |------------------|--------------------------------|----------------------------|
@@ -219,7 +238,7 @@ Gli amministratori gestiscono il sistema tramite un **pannello di controllo dedi
 
 ---
 
-# 🧩 Requisiti Non Funzionali
+#  Requisiti Non Funzionali
 
 - Interfaccia chiara e intuitiva
 - Tempi di risposta rapidi
@@ -231,7 +250,7 @@ Gli amministratori gestiscono il sistema tramite un **pannello di controllo dedi
 
 ---
 
-# 📚 Requisiti di Dominio
+#  Requisiti di Dominio
 
 - Utilizzo di dati ufficiali delle partite di pallavolo
 - Calcolo dei punteggi basato su prestazioni reali dei giocatori
