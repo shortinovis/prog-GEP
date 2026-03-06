@@ -302,3 +302,31 @@ Pianificazione dettagliata delle fasi di sviluppo e relativi costi:
 ## Prototipo applicazione
 
 https://fantavolley-champions.lovable.app
+
+
+---
+
+# Elevator Pitch – FantaVolley
+
+**Cos'è FantaVolley?**  
+FantaVolley è la prima piattaforma di fantasy sport dedicata esclusivamente alla pallavolo, pensata per appassionati, giocatori e tifosi. Gli utenti possono creare squadre virtuali con giocatori reali della Superlega e delle principali competizioni, partecipare a leghe pubbliche o private, e confrontarsi in tempo reale attraverso classifiche aggiornate, statistiche e analisi avanzate.
+
+**Business Model e Monetizzazione**  
+La piattaforma genera ricavi attraverso tre canali principali:  
+1. **Tornei premium a pagamento**: eventi speciali con montepremi reali per incentivare la competizione e l’engagement.  
+2. **Abbonamenti mensili premium**: accesso a funzionalità avanzate come analisi statistiche, suggerimenti per la formazione, report personalizzati e modifiche illimitate della squadra. Questi strumenti forniscono vantaggi informativi senza alterare l’equilibrio competitivo.  
+3. **Sponsorizzazioni e partnership con brand sportivi**: inserimento di contenuti e promozioni in linea con l’esperienza di gioco.
+
+**Vantaggio Competitivo**  
+FantaVolley si distingue dai competitor perché è interamente dedicata alla pallavolo, offrendo:  
+- Aggiornamenti in tempo reale dei punteggi basati sulle prestazioni reali dei giocatori.  
+- Analisi predittive e statistiche dettagliate per migliorare le strategie di gioco.  
+- Possibilità di partecipare a leghe personalizzate tra amici o con utenti di tutto il mondo.  
+- Esperienza multipiattaforma, sicura e priva di pubblicità invasive.
+
+**Richiesta di Investimento e Pianificazione**  
+Per avviare il progetto, stimiamo un investimento iniziale di circa **€30.000**, destinato a: sviluppo backend e frontend, integrazione API sportive, infrastruttura cloud, sicurezza e campagne di marketing iniziali.  
+Il piano prevede un lancio beta entro 4 mesi, con monitoraggio dell’engagement e scaling progressivo della piattaforma.
+
+**Perché scegliere FantaVolley**  
+Scegliere FantaVolley significa investire nella **prima piattaforma di fantasy sport per la pallavolo**, con un modello economico chiaro, scalabile e trasparente, e con un pubblico target altamente motivato. È un progetto con forte potenziale di crescita, sia per il mercato italiano che internazionale, grazie a un’esperienza utente innovativa e coinvolgente.
