@@ -1,116 +1,206 @@
-# prog-GEP
+# 🏐 FantaVolley
 
+## 📌 Descrizione
 
-TITOLO
-FantaVolley	
+**FantaVolley** è una piattaforma (web/app) pensata per tutti gli amanti della pallavolo, dove è possibile creare la propria **squadra virtuale**, partecipare a **leghe e tornei a premi** e vivere l’esperienza del **fantasy sport applicato alla pallavolo**.
 
+Gli utenti possono selezionare i migliori giocatori della **Superlega** e delle principali competizioni, monitorare le loro performance in tempo reale e guadagnare punti per scalare la classifica.
 
+### 💰 Modello di monetizzazione
 
-DESCRIZIONE
-"Una piattaforma (sito/app) pensata per tutti gli amanti della pallavolo, dove puoi creare la tua squadra virtuale, partecipare a tornei a premi e vivere l’emozione del fantasy sport applicato al mondo della pallavolo.
-Scegli i migliori giocatori della Superlega e delle principali competizioni, segui le loro performance in tempo reale e guadagna punti per scalare la classifica e vincere premi fantastici.
+La piattaforma genera ricavi attraverso:
 
-La piattaforma monetizza attraverso tornei premium a pagamento con montepremi reali, abbonamenti mensili per sbloccare funzionalità avanzate (come analisi, suggerimenti formazione e modifiche illimitate), e sponsorizzazioni da parte di brand sportivi partner."	
+- **Tornei premium a pagamento** con montepremi reali
+- **Abbonamenti mensili** per funzionalità avanzate
+- **Sponsorizzazioni e partnership** con brand sportivi
 
+Gli abbonamenti permettono di sbloccare:
 
+- Analisi statistiche avanzate
+- Suggerimenti per la formazione
+- Modifiche illimitate alla squadra
+- Report personalizzati sulle prestazioni
 
-PROBLEMA
-assenza di una piattaforma strutturata, aggiornata e ufficiale per la pallavolo in cui confrontarsi e affrontare altri appassionati.	"
+---
 
+# 🎯 Problema
 
+Attualmente esiste **una forte mancanza di piattaforme dedicate alla pallavolo** nel mondo dei fantasy sport.
 
-TARGET
-Fascia d’età: 14 – 45 anni
-persone: appassionati di pallavolo (giocatori, tifosi, allenatori, studenti sportivi).
-Casual player: utenti che partecipano a leghe tra amici per divertimento.
-Competitor: utenti che puntano a classifiche ufficiali e premi.
-Società sportive / tornei locali: partner per tornei sponsorizzati o a tema.
+Mentre sport come calcio e basket hanno numerose applicazioni e community attive, la pallavolo non dispone ancora di una **piattaforma strutturata, aggiornata e competitiva** dove gli appassionati possano:
 
+- confrontarsi tra loro
+- creare squadre fantasy
+- partecipare a competizioni e tornei
 
+**FantaVolley nasce per colmare questa lacuna.**
 
+---
 
-COMPETITORS
-"	I principali competitors sono piattaforse/app che si occupano della stessa tipologia di idea, ma
-riguardante altri sport come basket o calcio, quindi come FantaCalcio, Dunkest e Sorare."	
+# 👥 Target
 
+### Fascia d'età
+**14 – 45 anni**
 
+### Utenti principali
 
-TAGLINE
+- 🏐 **Appassionati di pallavolo** (giocatori, tifosi, allenatori)
+- 🎓 **Studenti e praticanti sportivi**
+- 🎮 **Casual players** che vogliono giocare con amici
+- 🏆 **Competitors** interessati a classifiche e tornei ufficiali
 
-“La passione per la pallavolo diventa strategia. Gioca, analizza, vinci.”
+### Partner potenziali
+
+- Società sportive
+- Organizzatori di tornei locali
+- Brand sportivi
+
+---
+
+# 🥊 Competitors
+
+I principali competitor sono piattaforme fantasy dedicate ad **altri sport**, come calcio o basket.
+
+- Fantacalcio
+- Dunkest
+- Sorare
+
+Queste piattaforme offrono esperienze simili ma **non sono focalizzate sulla pallavolo**, lasciando spazio per un prodotto dedicato come **FantaVolley**.
+
+---
+
+# 🏷 Tagline
+
+> **“La passione per la pallavolo diventa strategia. Gioca, analizza, vinci.”**
+
 oppure
-“Fantavolley: il fantasy game dedicato alla vera pallavolo.”
 
-TECNOLOGIE
-Per supportare una piattaforma fantasy sport scalabile e ricca di dati statistici, è stato selezionato uno stack tecnologico moderno:
-Frontend
-Next.js (React) + Tailwind CSS → interfaccia veloce, responsive e moderna
-Backend
-Node.js con NestJS o Express → gestione API, logica di gioco e calcolo punteggi
-Database
-PostgreSQL → dati utenti, squadre fantasy e partite
-Redis → cache per statistiche e classifiche in tempo reale
-Autenticazione
-OAuth 2.0 / JWT con Auth0 o Firebase Auth → login sicuro
-Pagamenti
-Stripe → gestione abbonamenti premium e rinnovi
-Raccolta dati sportivi
-API sportive (Volley Data API o scraping federazioni) → risultati, statistiche e prestazioni giocatori
-Storage e distribuzione
-Amazon S3 + Cloudflare CDN → immagini, asset e distribuzione veloce
-Hosting e cloud
-AWS / Google Cloud → scalabilità e affidabilità
-Sicurezza
-HTTPS
-bcrypt per password
-2FA opzionale
-Monitoraggio e analytics
-Sentry → gestione errori
-Google Analytics / Mixpanel → analisi comportamento utenti
-CI/CD e versioning
-GitHub + GitHub Actions → deployment automatico
+> **“FantaVolley: il fantasy game dedicato alla vera pallavolo.”**
 
+---
 
+# 🛠 Tecnologie
 
+Per supportare una piattaforma fantasy sport scalabile e basata su dati statistici è stato selezionato uno stack moderno.
 
+## Frontend
+- **Next.js (React)**
+- **Tailwind CSS**
 
-Analisi dei Requisiti
-Descrizione dei requisiti
+Interfaccia moderna, veloce e completamente responsive.
 
-Fantavolley è una piattaforma online che consente agli utenti di partecipare a un fantasy game dedicato alla pallavolo, creando squadre virtuali composte da giocatori reali.
+## Backend
+- **Node.js**
+- **NestJS / Express**
 
-Gli utenti possono registrarsi alla piattaforma, effettuare il login e recuperare la password in caso di smarrimento. Una volta autenticati, possono gestire il proprio profilo e accedere alle funzionalità del gioco.
+Gestione API, logica di gioco e calcolo dei punteggi.
 
-Ogni utente può creare o partecipare a leghe fantasy, sia pubbliche sia private, dove competere con altri utenti. Durante la fase iniziale della lega viene effettuata la creazione della squadra, selezionando i giocatori disponibili secondo regole stabilite (budget o draft).
+## Database
+- **PostgreSQL** → dati utenti, squadre fantasy, leghe e partite  
+- **Redis** → cache per statistiche e classifiche in tempo reale
 
-Le prestazioni dei giocatori reali nelle partite ufficiali vengono convertite in punteggi fantasy, che aggiornano automaticamente le classifiche delle leghe.
+## Autenticazione
+- OAuth 2.0
+- JWT
+- Auth0 / Firebase Auth
 
-La piattaforma offre inoltre analisi statistiche avanzate, consultabili dagli utenti, che includono prestazioni dei giocatori, andamento delle squadre e suggerimenti per la formazione.
+## Pagamenti
+- **Stripe**
 
-Il modello economico della piattaforma prevede abbonamenti premium, che offrono funzionalità aggiuntive come statistiche avanzate, analisi predittive e report personalizzati. Questi vantaggi non alterano il bilanciamento del gioco, ma forniscono solo strumenti informativi.
+Gestione abbonamenti premium e rinnovi automatici.
 
-Gli amministratori possono gestire il sistema attraverso un pannello dedicato, dove controllano i dati dei giocatori, aggiornano i calendari delle partite e monitorano il corretto funzionamento della piattaforma.
+## Raccolta dati sportivi
+- API sportive
+- integrazione con dati federazioni
+- scraping di risultati ufficiali
 
-Il sistema deve garantire prestazioni elevate, sicurezza dei dati, scalabilità e compatibilità multipiattaforma, offrendo un’esperienza semplice e intuitiva per tutti gli utenti.
+## Storage e distribuzione
+- **Amazon S3**
+- **Cloudflare CDN**
 
-Elenco Riassuntivo Requisiti
-Funzionali
+Distribuzione veloce degli asset.
 
-Registrazione, login e recupero password
-Gestione del profilo utente
-Creazione e gestione della squadra fantasy
-Partecipazione a leghe pubbliche o private
-Aggiornamento automatico dei punteggi in base alle partite reali
-Visualizzazione classifiche e risultati
-Consultazione statistiche dei giocatori
-Suggerimenti per la formazione basati sui dati
-Gestione abbonamenti premium
-Accesso alle analisi avanzate per utenti premium
-Accesso amministratore per gestione dati e sistema
+## Hosting e Cloud
+- **AWS**
+- **Google Cloud**
 
+Scalabilità e alta affidabilità.
 
+## Sicurezza
 
-## User Story
+- HTTPS
+- bcrypt per hashing password
+- autenticazione a due fattori (2FA)
+
+## Monitoraggio
+
+- **Sentry** → monitoraggio errori
+- **Google Analytics / Mixpanel** → analisi utilizzo piattaforma
+
+## CI/CD
+
+- **GitHub**
+- **GitHub Actions**
+
+Deployment automatico e versioning del codice.
+
+---
+
+# 📋 Analisi dei Requisiti
+
+## Descrizione
+
+FantaVolley è una piattaforma online che consente agli utenti di partecipare a un **fantasy game dedicato alla pallavolo**, creando squadre virtuali composte da giocatori reali.
+
+Gli utenti possono:
+
+- registrarsi alla piattaforma
+- effettuare il login
+- recuperare la password
+
+Una volta autenticati possono gestire il proprio profilo e utilizzare le funzionalità principali del gioco.
+
+Gli utenti possono inoltre:
+
+- creare o partecipare a **leghe fantasy**
+- competere con altri utenti
+- selezionare giocatori tramite **budget o draft**
+
+Le prestazioni dei giocatori reali vengono convertite in **punteggi fantasy**, aggiornando automaticamente le classifiche delle leghe.
+
+La piattaforma offre anche **analisi statistiche avanzate**, tra cui:
+
+- performance dei giocatori
+- andamento delle squadre
+- suggerimenti per la formazione
+
+Il modello economico prevede **abbonamenti premium** che offrono funzionalità avanzate senza alterare l’equilibrio del gioco.
+
+Gli amministratori gestiscono il sistema tramite un **pannello di controllo dedicato**, dove possono:
+
+- aggiornare i dati delle partite
+- controllare il sistema
+- monitorare l’attività della piattaforma
+
+---
+
+# ⚙️ Requisiti Funzionali
+
+- Registrazione, login e recupero password
+- Gestione del profilo utente
+- Creazione e gestione della squadra fantasy
+- Partecipazione a leghe pubbliche o private
+- Aggiornamento automatico dei punteggi
+- Visualizzazione classifiche e risultati
+- Consultazione statistiche giocatori
+- Suggerimenti per la formazione
+- Gestione abbonamenti premium
+- Accesso ad analisi avanzate
+- Accesso amministratore per gestione sistema
+
+---
+
+# 📖 User Story
 
 | Attore (Come...) | Requisito / Azione (Voglio...) | Beneficio (In modo da...) |
 |------------------|--------------------------------|----------------------------|
@@ -127,21 +217,24 @@ Accesso amministratore per gestione dati e sistema
 | Amministratore | accedere al pannello di controllo | gestire dati e sistema |
 | Amministratore | aggiornare dati delle partite | mantenere le statistiche aggiornate |
 
+---
 
-Non Funzionali
+# 🧩 Requisiti Non Funzionali
 
-Interfaccia chiara e intuitiva
-Tempi di risposta rapidi
-Alta disponibilità del servizio
-Compatibilità multipiattaforma (web e mobile)
-Scalabilità per gestire molti utenti
-Codice modulare e manutenibile
-Protezione dei dati personali
+- Interfaccia chiara e intuitiva
+- Tempi di risposta rapidi
+- Alta disponibilità del servizio
+- Compatibilità multipiattaforma (web e mobile)
+- Scalabilità per gestire molti utenti
+- Codice modulare e facilmente manutenibile
+- Protezione dei dati personali
 
-Di Dominio
+---
 
-Utilizzo di dati ufficiali delle partite di pallavolo
-Calcolo dei punteggi basato su prestazioni reali dei giocatori
-Sistema economico basato su abbonamenti premium non competitivi
-Rispetto delle normative sulla privacy (GDPR)
-Protezione dei dati e sicurezza delle transazioni
+# 📚 Requisiti di Dominio
+
+- Utilizzo di dati ufficiali delle partite di pallavolo
+- Calcolo dei punteggi basato su prestazioni reali dei giocatori
+- Sistema economico basato su abbonamenti premium non competitivi
+- Conformità al **GDPR**
+- Protezione dei dati e sicurezza delle transazioni
