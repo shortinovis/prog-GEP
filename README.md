@@ -267,4 +267,33 @@ Gli amministratori gestiscono il sistema tramite un **pannello di controllo dedi
 <img width="962" height="950" alt="image" src="https://github.com/user-attachments/assets/3d66fbda-b0cd-4fba-98d3-df028829bcb2" />
 
 
+---
+
+
+# WBS (Work Breakdown Structure)
+Pianificazione dettagliata delle fasi di sviluppo e relativi costi:
+
+<img width="910" height="679" alt="image" src="https://github.com/user-attachments/assets/8105943f-1d86-4e4e-bdce-f03fce3ef9cd" />
+
+
+---
+
+## Cronoprogramma del progetto
+
+
+| Fase | Periodo | Attività principali |
+|-----|-----|-----|
+| 1. Analisi requisiti | Settimana 1 | Raccolta requisiti, definizione user stories, analisi funzionale |
+| 2. Progettazione | Settimana 2-3 | Architettura sistema, progettazione database, wireframe UI |
+| 3. Setup ambiente | Settimana 3 | Configurazione repository GitHub, setup backend e frontend |
+| 4. Sviluppo autenticazione | Settimana 4 | Registrazione utenti, login, recupero password |
+| 5. Gestione squadre | Settimana 5-6 | Creazione squadra fantasy, gestione rosa giocatori |
+| 6. Sistema leghe | Settimana 7 | Creazione e partecipazione alle leghe |
+| 7. Statistiche giocatori | Settimana 8 | Visualizzazione statistiche e dati partite |
+| 8. Formazione squadra | Settimana 9 | Modifica formazione e calcolo punteggi |
+| 9. Classifiche | Settimana 10 | Visualizzazione ranking delle leghe |
+| 10. Funzionalità premium | Settimana 11 | Abbonamento premium e analisi avanzate |
+| 11. Testing | Settimana 12 | Test funzionali, bug fixing |
+| 12. Deploy | Settimana 13 | Pubblicazione applicazione e documentazione finale |
+
 
