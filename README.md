@@ -297,3 +297,8 @@ Pianificazione dettagliata delle fasi di sviluppo e relativi costi:
 | 12. Deploy | Settimana 13 | Pubblicazione applicazione e documentazione finale |
 
 
+---
+
+## Prototipo applicazione
+
+https://fantavolley-champions.lovable.app
