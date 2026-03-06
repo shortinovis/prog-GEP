@@ -257,3 +257,14 @@ Gli amministratori gestiscono il sistema tramite un **pannello di controllo dedi
 - Sistema economico basato su abbonamenti premium non competitivi
 - Conformità al **GDPR**
 - Protezione dei dati e sicurezza delle transazioni
+
+
+---
+
+
+#  use case UML
+
+<img width="962" height="950" alt="image" src="https://github.com/user-attachments/assets/3d66fbda-b0cd-4fba-98d3-df028829bcb2" />
+
+
+
